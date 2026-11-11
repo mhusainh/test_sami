@@ -1,0 +1,244 @@
+npm notice run test-sami@0.1.0 dev
+npm notice run next dev
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mNext.js[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+  ▲ Next.js 14.2.15
+  - Local:        http://localhost:3000
+  - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 4.1s
+ ○ Compiling / ...
+ ✓ Compiled /src/middleware in 4.6s (560 modules)
+ GET / 200 in 5200ms
+ ○ Compiling /api/public/lowongan ...
+ ✓ Compiled /favicon.ico in 5s (517 modules)
+ ✓ Compiled (545 modules)
+ GET /favicon.ico 200 in 4166ms
+ GET /api/public/lowongan 200 in 5423ms
+ ✓ Compiled /api/auth/login in 242ms (318 modules)
+ POST /api/auth/login 401 in 504ms
+ POST /api/auth/login 200 in 197ms
+ ✓ Compiled /api/applications in 447ms (418 modules)
+ GET /api/applications 200 in 636ms
+ ✓ Compiled /api/stages in 99ms (420 modules)
+ GET /api/stages 200 in 256ms
+ POST /api/applications 500 in 16ms
+ POST /api/applications 500 in 10ms
+ ✓ Compiled /api/applications/[id] in 94ms (422 modules)
+ GET /api/applications/undefined 500 in 714ms
+ PATCH /api/applications/undefined 500 in 120ms
+ POST /api/stages 201 in 264ms
+ PATCH /api/stages 200 in 637ms
+ PATCH /api/stages 200 in 607ms
+ ✓ Compiled /api/scores in 217ms (424 modules)
+ PUT /api/scores 400 in 263ms
+ PUT /api/scores 400 in 10ms
+ PUT /api/scores 400 in 11ms
+ ○ Compiling /api/applications/export ...
+ ✓ Compiled /api/applications/export in 5s (1121 modules)
+ GET /api/applications/export 200 in 5991ms
+ ✓ Compiled /api/lowongan in 358ms (1123 modules)
+ POST /api/lowongan 201 in 745ms
+ ○ Compiling /api/lowongan/[id] ...
+ ✓ Compiled /api/lowongan/[id] in 740ms (1125 modules)
+ PATCH /api/lowongan/670c750a-c2e1-4ab5-95fe-2bcc71148e7a 200 in 2840ms
+ DELETE /api/lowongan/670c750a-c2e1-4ab5-95fe-2bcc71148e7a 200 in 301ms
+ DELETE /api/stages?id=9bb642b2-e4e9-4242-8b53-2a212c5ec7ca 200 in 401ms
+ DELETE /api/stages?id=d9323774-567b-4547-8b7a-36dd8f941178 200 in 447ms
+ ✓ Compiled /api/auth/logout in 355ms (1127 modules)
+ POST /api/auth/logout 200 in 435ms
+ GET /api/applications 200 in 183ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 662ms (1357 modules)
+ GET /login 200 in 781ms
+ GET / 200 in 71ms
+ ○ Compiling /daftar ...
+ ✓ Compiled /daftar in 613ms (1364 modules)
+ GET /daftar?code=opt&title=operator&periode=202505 200 in 721ms
+ DELETE /api/applications/undefined 500 in 147ms
+ GET / 200 in 72ms
+ GET /favicon.ico 200 in 25ms
+ GET /api/public/lowongan 200 in 161ms
+ GET /api/public/lowongan 200 in 269ms
+ GET /login 200 in 39ms
+ POST /api/auth/login 401 in 157ms
+ ✓ Compiled in 566ms (1378 modules)
+ POST /api/auth/login 200 in 327ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 689ms (715 modules)
+ GET /api/public/lowongan?code=opt 200 in 180ms
+ GET /api/public/lowongan?code=opt 200 in 638ms
+ GET /api/public/lowongan 200 in 178ms
+ ○ Compiling /api/upload ...
+ ✓ Compiled /api/upload in 1960ms (568 modules)
+ POST /api/upload 200 in 4189ms
+ POST /api/upload 200 in 994ms
+ POST /api/upload 200 in 2075ms
+ ✓ Compiled /api/applications in 324ms (675 modules)
+ POST /api/applications 201 in 1094ms
+ GET / 200 in 122ms
+ GET /api/public/lowongan 200 in 144ms
+ GET /api/public/lowongan 200 in 265ms
+ GET /login 200 in 100ms
+ ✓ Compiled /api/auth/login in 170ms (678 modules)
+ POST /api/auth/login 200 in 453ms
+ ○ Compiling /admin/pelamar ...
+ ✓ Compiled /admin/pelamar in 748ms (935 modules)
+ ✓ Compiled /api/lowongan in 264ms (684 modules)
+ ✓ Compiled (686 modules)
+ GET /api/lowongan 200 in 670ms
+ GET /api/stages 200 in 681ms
+ GET /api/lowongan 200 in 251ms
+ GET /api/stages 200 in 247ms
+ GET /api/applications? 200 in 355ms
+ ✓ Compiled /admin/lowongan in 418ms (945 modules)
+ GET /api/lowongan 200 in 160ms
+ GET /api/lowongan 200 in 262ms
+ ○ Compiling /admin/tahap ...
+ ✓ Compiled /admin/tahap in 780ms (959 modules)
+ GET /api/stages 200 in 148ms
+ GET /api/stages 200 in 165ms
+ POST /api/auth/login 200 in 254ms
+ GET /api/public/lowongan 200 in 139ms
+ GET /api/stages 200 in 137ms
+ GET /api/lowongan 200 in 167ms
+ PATCH /api/stages 200 in 697ms
+ GET /api/lowongan 200 in 233ms
+ POST /api/applications 201 in 589ms
+ POST /api/applications 201 in 543ms
+ ✓ Compiled /api/applications/[id] in 217ms (700 modules)
+ PATCH /api/applications/d1737575-9432-47be-8cec-d4ab9d801e64 200 in 814ms
+ ✓ Compiled /api/scores in 261ms (702 modules)
+ PUT /api/scores 200 in 696ms
+ POST /api/applications 201 in 580ms
+ POST /api/applications 201 in 571ms
+ PATCH /api/applications/00281c17-965d-490b-8b5b-a4cac2ee57bc 200 in 539ms
+ PUT /api/scores 200 in 398ms
+ PUT /api/scores 200 in 423ms
+ POST /api/applications 201 in 520ms
+ POST /api/applications 201 in 579ms
+ PATCH /api/applications/8aabdd24-d462-4d03-b200-06791f87a4be 200 in 542ms
+ PUT /api/scores 200 in 421ms
+ POST /api/applications 201 in 543ms
+ POST /api/applications 201 in 623ms
+ PATCH /api/applications/b440fb16-b89e-4e89-91c0-ae3c46901f9a 200 in 553ms
+ PUT /api/scores 200 in 428ms
+ PUT /api/scores 200 in 437ms
+ GET /api/applications 200 in 338ms
+ POST /api/lowongan 201 in 168ms
+ GET /api/lowongan 200 in 131ms
+ GET /api/stages 200 in 137ms
+ GET /api/lowongan 200 in 172ms
+ GET /api/stages 200 in 231ms
+ GET /api/lowongan 200 in 195ms
+ GET /api/applications? 200 in 391ms
+ GET /api/stages 200 in 181ms
+ GET /api/stages 200 in 212ms
+ GET /api/stages 200 in 146ms
+ GET /api/lowongan 200 in 161ms
+ GET /api/stages 200 in 134ms
+ GET /api/lowongan 200 in 126ms
+ GET /api/applications? 200 in 407ms
+ ✓ Compiled /admin/pelamar/[id] in 484ms (715 modules)
+ GET /api/stages 200 in 176ms
+ GET /api/stages 200 in 133ms
+ GET /api/applications/5c099bf6-7380-4265-b8cc-f87ca20a2d52 200 in 413ms
+ GET /api/applications/5c099bf6-7380-4265-b8cc-f87ca20a2d52 200 in 391ms
+ GET /admin/pelamar/5c099bf6-7380-4265-b8cc-f87ca20a2d52 200 in 222ms
+ POST /api/auth/login 200 in 257ms
+ GET /api/stages 200 in 149ms
+ GET /api/applications 200 in 327ms
+ GET /api/applications 200 in 327ms
+ PUT /api/scores 200 in 445ms
+ GET /api/stages 200 in 150ms
+ GET /api/applications/5c099bf6-7380-4265-b8cc-f87ca20a2d52 200 in 524ms
+ PUT /api/scores 200 in 438ms
+ GET /api/stages 200 in 160ms
+ GET /api/applications/5c099bf6-7380-4265-b8cc-f87ca20a2d52 200 in 543ms
+ PATCH /api/applications/5c099bf6-7380-4265-b8cc-f87ca20a2d52 200 in 551ms
+ GET /api/stages 200 in 141ms
+ GET /api/applications/5c099bf6-7380-4265-b8cc-f87ca20a2d52 200 in 616ms
+ PATCH /api/applications/5c099bf6-7380-4265-b8cc-f87ca20a2d52 200 in 589ms
+ GET /api/stages 200 in 143ms
+ GET /api/applications/5c099bf6-7380-4265-b8cc-f87ca20a2d52 200 in 591ms
+ GET /api/lowongan 200 in 137ms
+ GET /api/lowongan 200 in 253ms
+ GET /api/stages 200 in 135ms
+ GET /api/lowongan 200 in 144ms
+ GET /api/stages 200 in 204ms
+ GET /api/lowongan 200 in 189ms
+ GET /api/applications? 200 in 334ms
+ ✓ Compiled /api/auth/logout in 244ms (440 modules)
+ POST /api/auth/logout 200 in 286ms
+ ✓ Compiled /login in 204ms (444 modules)
+ POST /api/auth/login 200 in 211ms
+ GET /api/stages 200 in 130ms
+ POST /api/stages 201 in 252ms
+ GET /api/stages 200 in 158ms
+ PATCH /api/stages 200 in 646ms
+ GET /api/stages 200 in 127ms
+ GET /api/applications 200 in 349ms
+ PATCH /api/applications/c2ae561a-790e-40ba-96bf-206a48b9ae59 200 in 590ms
+ PATCH /api/applications/b5d9af60-6fe2-4b79-a394-0352863f4343 200 in 527ms
+ PATCH /api/applications/5c099bf6-7380-4265-b8cc-f87ca20a2d52 200 in 602ms
+ GET /api/applications 200 in 335ms
+ PUT /api/scores 200 in 407ms
+ PUT /api/scores 200 in 441ms
+ PUT /api/scores 200 in 404ms
+ PUT /api/scores 200 in 413ms
+ PUT /api/scores 200 in 433ms
+ PUT /api/scores 200 in 403ms
+ PUT /api/scores 200 in 400ms
+ PUT /api/scores 200 in 413ms
+ PUT /api/scores 200 in 395ms
+ PUT /api/scores 200 in 397ms
+ PUT /api/scores 200 in 406ms
+ PUT /api/scores 200 in 412ms
+ GET /api/applications 200 in 326ms
+ POST /api/auth/login 200 in 270ms
+ GET /api/stages 200 in 168ms
+ GET /api/lowongan 200 in 198ms
+ GET /api/lowongan 200 in 178ms
+ GET /api/stages 200 in 207ms
+ GET /api/applications? 200 in 406ms
+ GET /api/stages 200 in 172ms
+ GET /api/stages 200 in 163ms
+ GET /api/applications/5c099bf6-7380-4265-b8cc-f87ca20a2d52 200 in 737ms
+ GET /api/applications/5c099bf6-7380-4265-b8cc-f87ca20a2d52 200 in 732ms
+ ✓ Compiled in 935ms (642 modules)
+ ✓ Compiled in 430ms (569 modules)
+ ✓ Compiled /api/auth/login in 475ms (329 modules)
+ POST /api/auth/login 200 in 824ms
+ ✓ Compiled /api/documents in 374ms (579 modules)
+ GET /api/documents?url=https%3A%2F%2Fres.cloudinary.com%2Fdemo%2Fraw%2Fupload%2Fsample.pdf 400 in 451ms
+ GET /api/documents?url=https%3A%2F%2Fres.cloudinary.com%2Fdemo%2Fimage%2Fupload%2Fv1%2Fsample.jpg 400 in 9ms
+ GET /api/documents?url=https%3A%2F%2Fevil.com%2Fx.pdf 400 in 9ms
+ ✓ Compiled in 411ms (856 modules)
+ ✓ Compiled in 296ms (856 modules)
+ POST /api/auth/login 200 in 275ms
+ GET /api/documents?url=https%3A%2F%2Fres.cloudinary.com%2Fdemo%2Fraw%2Fupload%2Fsample.pdf 307 in 941ms
+ GET /api/documents?url=https%3A%2F%2Fres.cloudinary.com%2Fdemo%2Fimage%2Fupload%2Fv1%2Fsample.jpg 200 in 117ms
+ GET /api/documents?url=https%3A%2F%2Fevil.com%2Fx.pdf 400 in 12ms
+ POST /api/auth/login 200 in 282ms
+ GET /api/documents?url=https%3A%2F%2Fres.cloudinary.com%2Fdemo%2Fraw%2Fupload%2Fdocs%2Fwikipedia.pdf 307 in 922ms
+ GET /api/documents?url=https%3A%2F%2Fres.cloudinary.com%2Fdemo%2Fraw%2Fupload%2Fsamples%2Fecommerce%2Fanalog-classic.jpg 307 in 766ms
+ POST /api/auth/login 200 in 277ms
+ ✓ Compiled /api/upload in 491ms (581 modules)
+ POST /api/upload 200 in 1850ms
+ GET /api/documents?url=https%3A%2F%2Fres.cloudinary.com%2Fdz3ycetrd%2Fraw%2Fupload%2Fv1794405987%2Ftest_sami%2Fcv%2Ffile_m06ths 200 in 375ms
+ ✓ Compiled in 442ms (858 modules)
+ ✓ Compiled in 376ms (858 modules)
+ POST /api/auth/login 200 in 288ms
+ GET /api/documents?url=https%3A%2F%2Fres.cloudinary.com%2Fdz3ycetrd%2Fraw%2Fupload%2Fv1794405987%2Ftest_sami%2Fcv%2Ffile_m06ths 200 in 170ms
+ GET /api/documents?url=https%3A%2F%2Fres.cloudinary.com%2Fdemo%2Fimage%2Fupload%2Fv1%2Fsample.jpg 200 in 20ms
+ GET /admin/pelamar/5c099bf6-7380-4265-b8cc-f87ca20a2d52 200 in 131ms
+ ○ Compiling /api/applications/[id] ...
+ ✓ Compiled /api/applications/[id] in 562ms (328 modules)
+ ✓ Compiled (425 modules)
+ GET /api/stages 200 in 1020ms
+ GET /api/stages 200 in 133ms
+ GET /api/applications/5c099bf6-7380-4265-b8cc-f87ca20a2d52 200 in 1467ms
+ GET /api/applications/5c099bf6-7380-4265-b8cc-f87ca20a2d52 200 in 577ms
+ ✓ Compiled /api/documents in 250ms (676 modules)
+ GET /api/documents?url=https%3A%2F%2Fres.cloudinary.com%2Fdz3ycetrd%2Fraw%2Fupload%2Fv1794405412%2Ftest_sami%2Fcv%2Ffile_vzgaz6 200 in 874ms
+ GET /api/documents?url=https%3A%2F%2Fres.cloudinary.com%2Fdz3ycetrd%2Fraw%2Fupload%2Fv1794405413%2Ftest_sami%2Fijazah%2Ffile_lle1lg 200 in 559ms
